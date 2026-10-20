@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu>.item {
+    display: inline-block;
+
+}
+
+.item {
+    padding: 30px;
+    color: aliceblue;
+    background-color: dimgray;
+}
+
+.menu {
+    background-color: dimgray;
+}
+
+.item:hover {
+    color: aqua;
+}
+
+.child {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 150px;
+    list-style: none;
+}
+
+.child .child {
+    top: 0%;
+    left: 100%;
+    width: 150px;
+}
+
+.parent {
+    position: relative;
+}
+
+.parent:hover>.child {
+    display: block;
+}
