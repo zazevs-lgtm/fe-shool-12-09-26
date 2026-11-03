@@ -1,0 +1,148 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   padding: 78px; 
+   padding-left: 400px;
+   background-color: #EEEFF1;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+   
+
+
+.liheader {
+    display: inline-block;
+}
+
+.spanheader {
+    padding-right: 40px;
+    color: #34547A;
+}
+
+.liheader:not(:last-child) {
+    padding-right: 40px;
+}
+
+/**************************************************************************************/
+
+
+.conterner2 {
+    padding-left: 400px;
+    background-color: #EEEFF1;
+    padding-bottom: 194px;
+}
+
+
+.section1h1 {
+    padding-top: 180px;
+}
+
+.p1 {
+    max-width: 540px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.button1 {
+    background-color: #34547A;
+    color: #fff;
+    width: 220px;
+    height: 59px;
+    
+}
+
+
+/**************************************************************************************/
+
+
+
+.conterner_aboutme {
+    padding-top: 163px;
+}
+
+.p2 {
+ max-width: 540px;
+ height: 67px;  
+ padding-top: 40px; 
+ padding-bottom: 100px;
+}
+
+
+/**************************************************************************************/
+
+
+
+.project-item {
+    background-color: #34547A;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 400px;
+    padding-right: 420px;
+    color: #fff;
+}
+
+.img_project {
+    padding-right: 20px;
+}
+
+
+
+
+
+.img_project:not(:last-child) {
+ padding-left: 49px;
+}
+
+
+
+/**************************************************************************************/
+
+.conterner-work {
+    background-color: #EEEFF1;
+}
+
+
+.h2-work {
+    padding-top: 100px;
+}
+
+
+.p-work {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    max-height: 41px;
+    max-width: 540px;
+}
+
+.img-work {
+    padding-bottom: 100px;
+}
+
+
+
+/**************************************************************************************/
+
+footer {
+    background-color: #34547A;
+    color: #fff;
+}
+
+
+.h3-footer {
+    padding-left: 400px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.p-footer {
+    padding-left: 400px;
+    padding-bottom: 60px;
+}
