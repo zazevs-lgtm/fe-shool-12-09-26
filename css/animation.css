@@ -1,0 +1,109 @@
+.cloud_1 {
+ animation: cloutMove 14s linear infinite;
+}
+
+@keyframes cloutMove {
+
+ 0% {
+    transform: translate(0, 0);
+ }
+
+
+ 100% {
+    transform: translateX(90vw);
+ }
+
+}
+
+.cloud_2 {
+ animation: cloutMov 17s linear infinite;
+}
+
+@keyframes cloutMov {
+
+ 0% {
+    transform: translate(0, 0);
+ }
+
+
+ 100% {
+    transform: translateX(90vw);
+ }
+
+}
+
+
+.cloud_3 {
+ animation: cloutMo 20s linear infinite;
+}
+
+@keyframes cloutMo {
+
+ 0% {
+    transform: translate(0, 0);
+ }
+
+
+ 100% {
+    transform: translateX(90vw);
+ }
+
+}
+
+.sun {
+   animation: sun 14s linear infinite;
+}
+
+@keyframes sun {
+   0% {
+      transform: translateY(500px);
+   }
+
+   50% {
+      transform: translateX(40vw);
+   }
+
+
+   100% {
+      transform: translate(90vw,500px);
+   }
+}
+
+.container {
+   animation: Night 15s linear infinite;
+}
+
+
+@keyframes Night {
+    0% {
+        filter: brightness(0);
+    }
+
+    15% {
+        filter: brightness(0.25);
+    }
+
+    30% {
+        filter: brightness(0.85);
+    }
+
+    40% {
+        filter: brightness(1);
+    }
+
+    60% {
+        filter: brightness(1);
+    }
+
+    70% {
+        filter: brightness(0.85);
+    }
+
+    85% {
+        filter: brightness(0.25);
+    }
+
+    100% {
+        filter: brightness(0);
+    }
+}
